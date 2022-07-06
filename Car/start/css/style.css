@@ -54,6 +54,10 @@ ul{
     
 }
 
+.header__logo{
+    margin-left: 115px;
+}
+
 .header__top{
     display: flex;
     justify-content: space-between;
@@ -139,6 +143,7 @@ ul{
 }
 
 .section__title{
+    text-transform: uppercase;
     margin-bottom: 25px;
     font-weight: 700;
     font-size: 18px;
@@ -153,6 +158,78 @@ ul{
     line-height: 120%;
 }
 
+.premier{
+    margin-bottom: 150px;
+}
 
+.premier__inner{
+    display: flex;
+    gap: 60px;
+}
 
+.premier__text{
+    margin-bottom: 21px;
+}
 
+.premier__img{
+    margin-bottom: 20px;
+}
+
+.premier__btn{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F402A2;
+    font-family: "Corporate-A-Bold";
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px;
+    border: 1px solid #F402A2;
+}
+
+.premier__btn:hover{
+    color: #53A1CB;
+    border: 1px solid #53A1CB;
+}
+
+.video{
+    margin-bottom: 150px;
+}
+
+.video__img{
+    margin-bottom: 25px;
+}
+
+.video__btn{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 18px;
+    line-height: 120%;
+    gap: 10px;
+    color: #F402A2;
+    font-family: "Corporate-A-Bold";
+    text-transform: uppercase;
+    padding: 14px;
+    border: 1px solid #F402A2;
+    transition: all .3s;
+}
+
+.video__btn span{
+    padding-top: 2px;
+}
+
+.video__btn:hover{
+    color: #53A1CB;
+    border: 1px solid #53A1CB;
+}
+
+.video__btn  path{
+    transition: all .3s;
+}
+
+.video__btn:hover path{
+    fill: #53A1CB;
+}
