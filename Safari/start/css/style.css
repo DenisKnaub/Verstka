@@ -17,6 +17,12 @@ a{
     color: inherit;
 }
 
+.title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+}
 
 .container{
     max-width: 1140px;
@@ -133,3 +139,34 @@ color: #FFFFFF;
     border-top: none;
     padding: 10px 19px 14px;
 }
+<<<<<<< HEAD
+=======
+
+.travel-info-r{
+    background-image: url(../images/travel-info-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 30px 0 50px;
+}
+
+.travel-info__title{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.travel-info__items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 54px 67px;
+}
+
+.travel-info__img{
+    margin-bottom: 15px;
+}
+
+.travel-info__text{
+    color: #fff;
+}
+
+>>>>>>> 05a0cde730121d5d3ab575e97bd9ccf8da3b7bfb
