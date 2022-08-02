@@ -139,8 +139,6 @@ color: #FFFFFF;
     border-top: none;
     padding: 10px 19px 14px;
 }
-<<<<<<< HEAD
-=======
 
 .travel-info-r{
     background-image: url(../images/travel-info-bg.jpg);
@@ -167,6 +165,8 @@ color: #FFFFFF;
 
 .travel-info__text{
     color: #fff;
+    font-size: 16px;
+    line-height: 130%;
 }
 
->>>>>>> 05a0cde730121d5d3ab575e97bd9ccf8da3b7bfb
+
